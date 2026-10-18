@@ -1,0 +1,4 @@
+# packages in environment at /home/noah/miniforge3/envs/chrono:
+#
+# Name                     Version          Build               Channel
+pychrono                   10.0.0           py312h98ab86c_1187  projectchrono

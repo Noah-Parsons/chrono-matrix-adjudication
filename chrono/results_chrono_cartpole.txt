@@ -1,0 +1,17 @@
+pychrono from /home/noah/miniforge3/envs/chrono/lib/python3.12/site-packages/pychrono
+probes 16/case, tolerance 1e-08 relative (gen and dead decide the status)
+
+================================================================================================================
+Chrono (matrix method) -- cartpole
+================================================================================================================
+case                                gen     dead     body    force   native    guard      res    qc_fd  status
+--------------------------------------------------------------------------------------------------------------
+  [first probe] state applied by Update; Cq has 6 rows, 1 matched to distance links; M_check 0.0e+00; Cq_check 2.0e-15
+M/m=10                          2.6e-13       --  3.0e-13  3.0e-13  7.2e-01  1.8e-15  4.4e-13  2.5e-09  agree   (0.0s)
+M/m=1                           2.9e-13       --  2.9e-13  2.9e-13  1.5e+00  8.9e-16  4.5e-13  2.5e-09  agree   (0.0s)
+M/m=0.01                        1.6e-13       --  1.6e-13  4.3e-13  2.1e+00  2.7e-15  1.3e-12  2.5e-09  agree   (0.0s)
+M/m=0.0001                      3.2e-13       --  3.2e-13  6.7e-14  2.1e+00  3.1e-15  1.8e-12  2.5e-09  agree   (0.0s)
+M/m=1e-06                       3.2e-13       --  3.2e-13  8.6e-14  2.1e+00  4.4e-15  1.8e-12  2.5e-09  agree   (0.0s)
+
+cases 5, disagreements 0, refusals 0
+written to /mnt/c/Users/nomap/Desktop/mechanicsdsl-main/stress_suite/chrono/out/chrono_cartpole.json

@@ -1,0 +1,10 @@
+files written: ['solve_Cq.dat', 'solve_M.dat']
+index base detected: H 1  Cq 1
+H shape (6, 6)  diag [1.   1.   1.   0.01 0.01 0.01]
+Cq shape (1, 6)  row [[ 0.573576 -0.819152  0.        0.        0.        0.      ]]
+
+omega  |a_mm-a_ex|  |alpha_mm|  |F_mm-F_ex|  |a_chr-a_ex|   res_dyn   res_con     guard  Cq_check
+  0.5     4.25e-13    0.00e+00     4.25e-13      0.249994   3.5e-13   2.4e-13   1.8e-15   4.2e-14
+  1.0     4.49e-13    0.00e+00     4.49e-13      0.999989   3.8e-13   2.4e-13   3.7e-15   4.2e-14
+  2.0     5.63e-13    0.00e+00     5.63e-13      3.999977   5.1e-13   2.4e-13   4.0e-15   4.2e-14
+  3.0     7.61e-13    0.00e+00     7.61e-13      8.999966   7.2e-13   2.4e-13   3.6e-15   4.2e-14
